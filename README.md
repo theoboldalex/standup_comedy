@@ -11,5 +11,7 @@
 
 ### Inspect the data
 `wc -l worker_bees.csv`
+
 `head -n 1 worker_bees.csv`
+
 `cat worker_bees.csv`
