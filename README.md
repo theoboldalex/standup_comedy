@@ -25,4 +25,7 @@ you are most comfortable with, practice and pick up some new tools, tips and uti
 
 ## Exercises
 
-1. Print both the number of columns and rows contained in `worker_bees.csv`
+> [!NOTE]
+> From here on out we will refer to `worker_bees.csv` the "input file".
+
+1. Print the number of columns contained in the input file.
