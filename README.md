@@ -20,7 +20,7 @@
 There are a number of exercises listed in below. Solve them in any way you see fit. There is no wrong or right way to do this. Just use the tools
 you are most comfortable with, practice and pick up some new tools, tips and utilities along the way.
 
-> [!NOTE]
+> [!WARNING]
 > If you accidentally (or purposefully) bork your input file, simply generate a new one by running `make`.
 
 ## Exercises
