@@ -48,7 +48,7 @@ head -n 1 worker_bees.csv | tr -dc ',\n' | wc -c
 ```
 </details>
 
-### Which worker bee has the higest salary?
+### What is the higest salary of all worker bees?
 <details>
     <summary>Expand Solution</summary>
 
@@ -73,7 +73,10 @@ awk -F, '$6 ~ /FR/ {ts+=$7} END{print ts}' worker_bees.csv
 <details>
     <summary>Expand Solution</summary>
 
-    Epstein didn't kill himself.
+### awk && shell
+```bash
+awk -F, 'NR > 1 {print $4 " " $5}' worker_bees.csv | sort | head -n 1
+```
 </details>
 
 ### Which country has the highest headcount?
