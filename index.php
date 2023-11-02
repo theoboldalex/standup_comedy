@@ -25,7 +25,7 @@ function generate_worker_bee(Generator $faker): array
     ];
 }
 
-$headers = array_keys(generate_worker_bee($faker)); // see, you _are_ all disposable
+$headers = array_keys(generate_worker_bee($faker)); // You are all disposable. see `Cattle not Pets`
 
 $fhandle = fopen(__DIR__ . '/worker_bees.csv', 'w+');
 fputcsv($fhandle, $headers);
