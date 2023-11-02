@@ -33,15 +33,15 @@ some new tools, tips and utilities along the way.
 <details>
     <summary>Expand Solution</summary>
 
-    #### awk
-    ```console
-    $ awk -F, '{print NF; exit}' worker_bees.csv
-    ```
+#### awk
+```console
+$ awk -F, '{print NF; exit}' worker_bees.csv
+```
 
-    #### perl
-    ```console
-    $ perl -F, -lane 'print scalar @F; exit' worker_bees.csv
-    ```
+#### perl
+```console
+$ perl -F, -lane 'print scalar @F; exit' worker_bees.csv
+```
 </details>
 
 ### Which worker bee has the higest salary?
