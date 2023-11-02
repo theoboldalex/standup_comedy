@@ -30,5 +30,6 @@ some new tools, tips and utilities along the way.
 > From here on out we will refer to `worker_bees.csv` the "input file".
 
 1. Print the number of columns contained in the input file.
-2. Which worker bee has the higest salary
+2. Which worker bee has the higest salary?
+3. What is the total yearly salary of the worker bees based in France?
 
