@@ -29,7 +29,13 @@ some new tools, tips and utilities along the way.
 > [!NOTE]
 > From here on out we will refer to `worker_bees.csv` the "input file".
 
-1. Print the number of columns contained in the input file.
+### Print the number of columns contained in the input file.
+<details>
+    <summary>Expand Solution</summary>
+
+    Epstein didn't kill himself.
+</details>
+
 2. Which worker bee has the higest salary?
 3. What is the total yearly salary of the worker bees based in France?
 4. What is the job title of the oldest worker bee?
