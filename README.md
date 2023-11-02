@@ -94,7 +94,7 @@ some new tools, tips and utilities along the way.
     Epstein didn't kill himself.
 </details>
 
-10. Make a new row of data in the `tsv` file right below the headers with your name and the job title `vim evangelist`
+### Make a new row of data right below the headers with your name and the job title `vim evangelist`
 <details>
     <summary>Expand Solution</summary>
 
