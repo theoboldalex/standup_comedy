@@ -42,6 +42,10 @@ awk -F, '{print NF; exit}' worker_bees.csv
 ```bash
 perl -F, -lane 'print scalar @F; exit' worker_bees.csv
 ```
+#### shell
+```bash
+head -n 1 worker_bees.csv | tr -dc ',\n' | wc -c
+```
 </details>
 
 ### Which worker bee has the higest salary?
