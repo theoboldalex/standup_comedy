@@ -116,7 +116,10 @@ awk -F, '/Lead Developer/ && $7 = "US" {c+=1} END{print c}' worker_bees.csv
 <details>
     <summary>Expand Solution</summary>
 
-    Epstein didn't kill himself.
+#### sed
+```bash
+sed 's/,/\t/g' worker_bees.csv > worker_bees.tsv
+```
 </details>
 
 ### Make a new row of data right below the headers with your name and the job title `Scrum Mainer`
