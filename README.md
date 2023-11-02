@@ -48,7 +48,10 @@ perl -F, -lane 'print scalar @F; exit' worker_bees.csv
 <details>
     <summary>Expand Solution</summary>
 
-    Epstein didn't kill himself.
+```bash
+awk -F, 'NR > 1 && $7 > max {max=$7} END{print max}' worker_bees.csv
+```
+
 </details>
 
 ### What is the total yearly salary of the worker bees based in France?
