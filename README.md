@@ -63,7 +63,9 @@ awk -F, 'NR > 1 && $7 > max {max=$7} END{print max}' worker_bees.csv
 <details>
     <summary>Expand Solution</summary>
 
-    Epstein didn't kill himself.
+```bash
+awk -F, '$6 ~ /FR/ {ts+=$7} END{print ts}' worker_bees.csv
+```
 </details>
 
 ### What is the job title of the oldest worker bee?
