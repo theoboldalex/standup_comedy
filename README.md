@@ -95,13 +95,13 @@ awk -F, '/[fF]red/ {print $1 " " $2 " " $5}' worker_bees.csv
 ```
 </details>
 
-### What is the most common job title for a worker bee?
+### What is the most common job title for a worker bee? Print a table of all job titles and the frequency with which they appear
 <details>
     <summary>Expand Solution</summary>
 
 #### awk
 ```bash
-awk -F, 'NR > 1 {titles[$5]++} END{max=0; for (t in titles){if (titles[t] > max){max=titles[t]; max_t=t}} print max_t}' worker_bees.csv
+awk -F, 'NR > 1 {titles[$5]++} END{for (t in titles) {print t ": " titles[t]}}' worker_bees.csv
 ```
 </details>
 
