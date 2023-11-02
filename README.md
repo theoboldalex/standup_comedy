@@ -63,6 +63,7 @@ awk -F, 'NR > 1 && $7 > max {max=$7} END{print max}' worker_bees.csv
 <details>
     <summary>Expand Solution</summary>
 
+#### awk
 ```bash
 awk -F, '$6 ~ /FR/ {ts+=$7} END{print ts}' worker_bees.csv
 ```
@@ -88,6 +89,7 @@ awk -F, '$6 ~ /FR/ {ts+=$7} END{print ts}' worker_bees.csv
 <details>
     <summary>Expand Solution</summary>
 
+#### awk
 ```bash
 awk -F, '/[fF]red/ {print $1 " " $2 " " $5}' worker_bees.csv
 ```
@@ -104,7 +106,10 @@ awk -F, '/[fF]red/ {print $1 " " $2 " " $5}' worker_bees.csv
 <details>
     <summary>Expand Solution</summary>
 
-    Epstein didn't kill himself.
+#### awk
+```bash
+awk -F, '/Lead Developer/ {c+=1} END{print c}' worker_bees.csv
+```
 </details>
 
 ### Make a copy of the input file but convert the format from `csv` to `tsv`
