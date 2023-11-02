@@ -135,6 +135,9 @@ sed 's/,/\t/g' worker_bees.csv > worker_bees.tsv
 <details>
     <summary>Expand Solution</summary>
 
-    Epstein didn't kill himself.
+#### awk
+```bash
+awk -F, 'NR == 1 {print; print "Alex,Theobold,alex.theobold@shitpost.ing,1987-06-30,\"Scrum Mainer\",UK,69420"} NR > 1' worker_bees.csv > tmp && mv tmp worker_bees.csv
+```
 </details>
 
