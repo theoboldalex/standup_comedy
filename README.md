@@ -99,7 +99,10 @@ awk -F, '/[fF]red/ {print $1 " " $2 " " $5}' worker_bees.csv
 <details>
     <summary>Expand Solution</summary>
 
-    Epstein didn't kill himself.
+#### awk
+```bash
+awk -F, 'NR > 1 {titles[$5]++} END{max=0; for (t in titles){if (titles[t] > max){max=titles[t]; max_t=t}} print max_t}' worker_bees.csv
+```
 </details>
 
 ### How many lead developers are there working from the US?
