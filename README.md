@@ -34,12 +34,12 @@ some new tools, tips and utilities along the way.
     <summary>Expand Solution</summary>
 
 #### awk
-```awk
+```bash
 awk -F, '{print NF; exit}' worker_bees.csv
 ```
 
 #### perl
-```perl
+```bash
 perl -F, -lane 'print scalar @F; exit' worker_bees.csv
 ```
 </details>
