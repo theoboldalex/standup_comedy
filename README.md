@@ -48,6 +48,7 @@ perl -F, -lane 'print scalar @F; exit' worker_bees.csv
 <details>
     <summary>Expand Solution</summary>
 
+#### awk
 ```bash
 awk -F, 'NR > 1 && $7 > max {max=$7} END{print max}' worker_bees.csv
 ```
