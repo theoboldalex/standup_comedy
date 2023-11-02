@@ -33,7 +33,13 @@ some new tools, tips and utilities along the way.
 <details>
     <summary>Expand Solution</summary>
 
-    Epstein didn't kill himself.
+    ```bash
+    awk -F, '{print NF; exit}' worker_bees.csv
+    ```
+
+    ```perl
+    perl -F, -lane 'print scalar @F; exit' worker_bees.csv
+    ```
 </details>
 
 ### Which worker bee has the higest salary?
