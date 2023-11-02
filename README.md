@@ -88,7 +88,9 @@ awk -F, '$6 ~ /FR/ {ts+=$7} END{print ts}' worker_bees.csv
 <details>
     <summary>Expand Solution</summary>
 
-    Epstein didn't kill himself.
+```bash
+awk -F, '/[fF]red/ {print $1 " " $2 " " $5}' worker_bees.csv
+```
 </details>
 
 ### What is the most common job title for a worker bee?
