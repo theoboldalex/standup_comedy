@@ -34,13 +34,13 @@ some new tools, tips and utilities along the way.
     <summary>Expand Solution</summary>
 
     #### awk
-    ```sh
-    awk -F, '{print NF; exit}' worker_bees.csv
+    ```console
+    $ awk -F, '{print NF; exit}' worker_bees.csv
     ```
 
     #### perl
-    ```sh
-    perl -F, -lane 'print scalar @F; exit' worker_bees.csv
+    ```console
+    $ perl -F, -lane 'print scalar @F; exit' worker_bees.csv
     ```
 </details>
 
