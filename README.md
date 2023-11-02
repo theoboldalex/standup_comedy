@@ -36,13 +36,68 @@ some new tools, tips and utilities along the way.
     Epstein didn't kill himself.
 </details>
 
-2. Which worker bee has the higest salary?
-3. What is the total yearly salary of the worker bees based in France?
-4. What is the job title of the oldest worker bee?
-5. Which country has the highest headcount?
-6. Print the full name and job title of all worker bees that have `fred` in their name. _Beware some worker bee names may not be all lower cased._
-7. What is the most common job title for a worker bee?
-8. How many lead developers are there working from the US?
-9. Make a copy of the input file but convert the format from `csv` to `tsv`
+### Which worker bee has the higest salary?
+<details>
+    <summary>Expand Solution</summary>
+
+    Epstein didn't kill himself.
+</details>
+
+### What is the total yearly salary of the worker bees based in France?
+<details>
+    <summary>Expand Solution</summary>
+
+    Epstein didn't kill himself.
+</details>
+
+### What is the job title of the oldest worker bee?
+<details>
+    <summary>Expand Solution</summary>
+
+    Epstein didn't kill himself.
+</details>
+
+### Which country has the highest headcount?
+<details>
+    <summary>Expand Solution</summary>
+
+    Epstein didn't kill himself.
+</details>
+
+### Print the full name and job title of all worker bees that have `fred` in their name. 
+> [!IMPORTANT]
+> Beware some worker bee names may not be all lower cased.
+<details>
+    <summary>Expand Solution</summary>
+
+    Epstein didn't kill himself.
+</details>
+
+### What is the most common job title for a worker bee?
+<details>
+    <summary>Expand Solution</summary>
+
+    Epstein didn't kill himself.
+</details>
+
+### How many lead developers are there working from the US?
+<details>
+    <summary>Expand Solution</summary>
+
+    Epstein didn't kill himself.
+</details>
+
+### Make a copy of the input file but convert the format from `csv` to `tsv`
+<details>
+    <summary>Expand Solution</summary>
+
+    Epstein didn't kill himself.
+</details>
+
 10. Make a new row of data in the `tsv` file right below the headers with your name and the job title `vim evangelist`
+<details>
+    <summary>Expand Solution</summary>
+
+    Epstein didn't kill himself.
+</details>
 
