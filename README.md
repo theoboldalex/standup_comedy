@@ -80,7 +80,10 @@ awk -F, '$6 ~ /FR/ {ts+=$7} END{print ts}' worker_bees.csv
 <details>
     <summary>Expand Solution</summary>
 
-    Epstein didn't kill himself.
+#### awk
+```bash
+awk -F, 'NR > 1 {ciso[$6]++} END{for (c in ciso){print c ": " ciso[c]}}' worker_bees.csv
+```
 </details>
 
 ### Print the full name and job title of all worker bees that have `fred` in their name. 
