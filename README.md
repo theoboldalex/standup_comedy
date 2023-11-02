@@ -108,7 +108,7 @@ awk -F, '/[fF]red/ {print $1 " " $2 " " $5}' worker_bees.csv
 
 #### awk
 ```bash
-awk -F, '/Lead Developer/ {c+=1} END{print c}' worker_bees.csv
+awk -F, '/Lead Developer/ && $7 = "US" {c+=1} END{print c}' worker_bees.csv
 ```
 </details>
 
